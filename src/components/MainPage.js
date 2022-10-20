@@ -14,8 +14,12 @@ const MainPage = () => {
   };
   useEffect(() => {
     fetch("https://last-airbender-api.herokuapp.com/api/v1/characters")
-      .then((res) => res.json())
-      .then(console.log);
+      .then((res) => {
+        res.json();
+        console.log(res);
+      })
+
+      .catch((err) => console.log(err));
   }, [state]);
 
   return (

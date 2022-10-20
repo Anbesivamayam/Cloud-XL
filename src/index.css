@@ -4,7 +4,7 @@
 
 @layer base{
     li {
-        @apply p-4
+        @apply p-1.5 
         font-semibold
         
     }
@@ -19,17 +19,17 @@ button{
 }
 
 .slick-prev:before, .slick-next:before {
-    font-size: 30px !important;
+    font-size: 20px !important;
     color:#0F172A !important;
     z-index: 999;
 }
 
 .slick-prev{
-    left: -50px !important;
+    left:-30px !important;
 }
 
 .slick-next{
-    right: -45px !important;
+    right: -30px !important;
 }
 @media only screen and (max-width: 1350px){
     /* .slick-prev{

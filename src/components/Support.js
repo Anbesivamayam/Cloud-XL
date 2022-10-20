@@ -39,7 +39,7 @@ const Support = () => {
                 <IoIosCall className="w-7 h-7 text-[25px] text-center" />
               </div>
               <h3 className="font-bold text-2xl my-4 text-indigo-600">Sales</h3>
-              <p className="text-gray-600 text-xl leading-relaxed md:leading-loose">
+              <p className="text-gray-600 text-xl md:text-lg leading-relaxed md:leading-loose">
                 Help customers transform their businesses with Google’s global
                 data center and software products, shaping the future of
                 technology in the workplace.
@@ -57,9 +57,9 @@ const Support = () => {
                 <GiLifeSupport className="text-[25px] text-center w-6 h-6" />
               </div>
               <h3 className="font-bold text-2xl my-4  text-indigo-600">Technical Support</h3>
-              <p className="text-gray-600 text-xl leading-relaxed md:leading-loose">
+              <p className="text-gray-600 text-xl md:text-lg leading-relaxed md:leading-loose">
                 Use technical experience to oversee all of a program's essential
-                activities, including planning, communications, and execution.
+                activities, including planning, communications, and execution.Technical support will be provided through online or chat.
               </p>
             </div>
             <div className="bg-slate-100 pl-8 py-4">
@@ -75,7 +75,7 @@ const Support = () => {
               </div>
 
               <h3 className="font-bold text-2xl my-4  text-indigo-600">Cloud Support</h3>
-              <p className="text-gray-600 text-xl leading-relaxed md:leading-loose">
+              <p className="text-gray-600 text-xl md:text-lg leading-relaxed md:leading-loose">
                 Oversee technical integration, platform adoption, and software
                 optimization projects to ensure rapid and accurate resolution of
                 technical challenges

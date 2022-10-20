@@ -8,7 +8,7 @@ const Data = () => {
     <div name="about" className="w-full my-16 md:my-32 openSans">
       <div className="max-w-[1240px] mx-auto">
         <div className="text-center">
-          <h2 className="text-[32px] md:text-4xl font-bold leading-tight">
+          <h2 className="text-3xl font-bold leading-tight">
             Data Services
           </h2>
           <p className="text-xl md:text-2xl py-3 md:py-6 px-2 text-gray-600 tracking-[.08em] leading-relaxed md:leading-[2.5rem] ">
@@ -17,17 +17,17 @@ const Data = () => {
         </div>
         <div className="grid md:grid-cols-3 gap-4 px-2 text-center">
           <div className="border py-8 rounded-xl shadow-xl ">
-            <p className="text-5xl md:text-7xl font-bold text-indigo-600 flex justify-center m-2"><AiOutlineCloudUpload/></p>
-            <p className="text-gray-600 mt-2 text-xl">App Security</p>
+            <p className="text-5xl md:text-6xl font-bold text-indigo-600 flex justify-center m-2"><AiOutlineCloudUpload/></p>
+            <p className="text-gray-600 mt-2 text-lg">App Security</p>
            
           </div>
           <div className="border py-8 rounded-xl shadow-xl">
-            <p className="text-5xl md:text-7xl  font-bold text-indigo-600 flex justify-center m-2"><TbCloudLockOpen/></p>
-            <p className="text-gray-600 mt-2 text-xl">Cloud data</p>
+            <p className="text-5xl md:text-6xl  font-bold text-indigo-600 flex justify-center m-2"><TbCloudLockOpen/></p>
+            <p className="text-gray-600 mt-2 text-lg">Cloud data</p>
           </div>
           <div className="border py-8 rounded-xl shadow-xl">
-            <p className="text-5xl md:text-7xl font-bold text-indigo-600 flex justify-center m-2"><BsFillFileEarmarkArrowUpFill/></p>
-            <p className="text-gray-600 mt-2 text-xl">API</p>
+            <p className="text-5xl md:text-6xl font-bold text-indigo-600 flex justify-center m-2"><BsFillFileEarmarkArrowUpFill/></p>
+            <p className="text-gray-600 mt-2 text-lg">API</p>
           </div>
         </div>
       </div>

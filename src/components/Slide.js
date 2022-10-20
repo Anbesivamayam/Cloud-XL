@@ -58,15 +58,15 @@ const Slide = () => {
     ],
   };
   return (
-    <div name="gallery" className="w-full my-16">
-      <h2 className="md:text-5xl text-4xl  font-bold text-center tracking-[.02em] ">
-        Our Photo Gallery
+    <div name="gallery" className="w-full my-10">
+      <h2 className="text-4xl font-bold text-center tracking-[.02em] ">
+        Photo Gallery
       </h2>
       <p className="text-2xl py-6 md:py-8 px-3 text-gray-500 text-center tracking-[.06em] italic">
         "History is a gallery of pictures in which there are few originals and
         many copies".
       </p>
-      <div className="relative md:max-w-[1240px]  mx-auto">
+      <div className="relative md:max-w-[1240px] mx-auto">
         <Slider {...settings} className="">
           <div className="px-2">
             <img className="rounded-lg" src={one} alt="" />

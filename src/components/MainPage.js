@@ -14,13 +14,13 @@ const MainPage = () => {
     >
       <div className="grid md:grid-cols-2 max-w-[1240px] m-auto">
         <div className="flex flex-col justify-center  md:items-start w-full px-4 py-8">
-          <p className="text-2xl md:text-3xl pt-6 mb-1 font-normal">
+          <p className="text-2xl xl:text-3xl pt-6 mb-1 font-normal">
             Influence the direction of
           </p>
-          <h1 className="py-3 sm:text-2xl text-4xl md:text-7xl mb-1 font-bold">
+          <h1 className="py-3 text-4xl md:text-6xl mb-1 font-bold">
             Cloud Management
           </h1>
-          <p className="text-2xl md:text-3xl mb-1  font-normal">
+          <p className="text-xl xl:text-3xl mb-1 font-normal">
             This is our Tech Cloud XL.
           </p>
           <button className="py-3 px-6 w-[150px] md:w-[40%] mb-1 my-4">Get Started</button>

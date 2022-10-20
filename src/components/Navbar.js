@@ -23,15 +23,15 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-screen h-[80px] z-10 bg-zinc-200 fixed drop-shadow-lg">
+    <div className="w-screen h-[70px] z-10 bg-zinc-200 fixed drop-shadow-lg">
       <div className="px-2 flex justify-between items-center w-full h-full">
         <div className="flex items-center">
           <Link to="main" smooth={true} offset={10} duration={500}>
-            <h1 className="text-3xl md:text-sm sm:text-xl lg:text-2xl font-bold mr-4 cursor-pointer">
+            <h1 className="text-base lg:text-2xl font-bold mr-4 cursor-pointer">
               CLOUD XL
             </h1>
           </Link>
-          <ul name="Navbar Components" className="hidden md:flex text-sm lg:text-lg xl:text-xl ">
+          <ul name="Navbar Components" className="hidden md:flex text-sm md:text-base xl:text-lg">
             <Link to="main" smooth={true} offset={50} duration={500}>
               <li className="cursor-pointer">Home</li>
             </Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
           </ul>
         </div>
         {/* {Sign-in and Signup} */}
-        <div className="hidden md:flex pr-4 text-sm lg:text-xl   ">
+        <div className="hidden md:flex pr-4 text-sm md:text-base">
           <button
             onClick={() => {
               setShowSignin(true);
@@ -69,11 +69,11 @@ const Navbar = () => {
                 },
               });
             }}
-            className="border-none bg-transparent text-black mr-4 md:text-xs lg:text-lg"
+            className="border-none bg-transparent text-black mr-4 text-sm md:text-base"
           >
             Sign In
           </button>
-          <button onClick={SignUpPage} className="px-8  py-3 ">
+          <button onClick={SignUpPage} className="px-6 py-2">
             Sign Up
           </button>
         </div>

@@ -4,9 +4,20 @@ import { FaDatabase } from "react-icons/fa";
 import { TbCloudLockOpen } from "react-icons/tb";
 import { BsFillFileEarmarkArrowUpFill } from "react-icons/bs";
 import bgImg from "../assets/cyber-bg.png";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const MainPage = () => {
+  const [state, setstate] = useState(1);
+  const handleOnclick = () => {
+    setstate(state + 1);
+    console.log(state);
+  };
+  useEffect(() => {
+    fetch("https://last-airbender-api.herokuapp.com/api/v1/characters")
+      .then((res) => res.json())
+      .then(console.log);
+  }, [state]);
+
   return (
     <div
       name="main"
@@ -21,9 +32,15 @@ const MainPage = () => {
             Cloud Management
           </h1>
           <p className="text-xl xl:text-3xl mb-1 font-normal">
-            This is our Tech <span className=" text-xl xl:text-3xl font-bold">Cloud XL.</span>
+            This is our Tech{" "}
+            <span className=" text-xl xl:text-3xl font-bold">Cloud XL.</span>
           </p>
-          <button className="py-3 px-6 w-[150px] md:w-[40%] mb-1 my-4">Get Started</button>
+          <button
+            onClick={handleOnclick}
+            className="py-3 px-6 w-[150px] md:w-[40%] mb-1 my-4"
+          >
+            Get Started
+          </button>
         </div>
         <div>
           <img className="w-full" src={bgImg} alt="mainbg" />

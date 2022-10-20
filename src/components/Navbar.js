@@ -31,7 +31,7 @@ const Navbar = () => {
               CLOUD XL
             </h1>
           </Link>
-          <ul name="Navbar Components" className="hidden md:flex text-sm md:text-base xl:text-lg">
+          <ul name="Navbar Components" className="hidden md:flex text-sm md:text-base">
             <Link to="main" smooth={true} offset={50} duration={500}>
               <li className="cursor-pointer">Home</li>
             </Link>

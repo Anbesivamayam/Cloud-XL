@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cloud-XL/static/css/main.14f9c62a.css",
-    "main.js": "/Cloud-XL/static/js/main.e1c31a91.js",
+    "main.css": "/Cloud-XL/static/css/main.d25bfaa6.css",
+    "main.js": "/Cloud-XL/static/js/main.83869f44.js",
     "static/media/support.jpg": "/Cloud-XL/static/media/support.13dffa5bdb3a671bcb5b.jpg",
     "static/media/cyber-bg.png": "/Cloud-XL/static/media/cyber-bg.44527257ee32d74ae878.png",
     "static/media/1.jpg": "/Cloud-XL/static/media/1.45a6f0d9e9feff0f7261.jpg",
@@ -16,11 +16,11 @@
     "static/media/slick.ttf": "/Cloud-XL/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Cloud-XL/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Cloud-XL/index.html",
-    "main.14f9c62a.css.map": "/Cloud-XL/static/css/main.14f9c62a.css.map",
-    "main.e1c31a91.js.map": "/Cloud-XL/static/js/main.e1c31a91.js.map"
+    "main.d25bfaa6.css.map": "/Cloud-XL/static/css/main.d25bfaa6.css.map",
+    "main.83869f44.js.map": "/Cloud-XL/static/js/main.83869f44.js.map"
   },
   "entrypoints": [
-    "static/css/main.14f9c62a.css",
-    "static/js/main.e1c31a91.js"
+    "static/css/main.d25bfaa6.css",
+    "static/js/main.83869f44.js"
   ]
 }

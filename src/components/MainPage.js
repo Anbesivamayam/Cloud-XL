@@ -21,7 +21,7 @@ const MainPage = () => {
             Cloud Management
           </h1>
           <p className="text-xl xl:text-3xl mb-1 font-normal">
-            This is our Tech Cloud XL.
+            This is our Tech <span className=" text-xl xl:text-3xl font-bold">Cloud XL.</span>
           </p>
           <button className="py-3 px-6 w-[150px] md:w-[40%] mb-1 my-4">Get Started</button>
         </div>

@@ -93,8 +93,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between items-center py-2">
-        <p className="py-3 ">2022 &#169; Panda.LLC. All rights reserved by Arun Prasad V</p>
+      <div className="mx-12 flex flex-col md:flex-row justify-between items-center py-2 tracking-widest">
+        <p className="py-3 ">2022 &#169; Cloud XL Limited</p>
+        <p className="py-3 ">Developed by Arun Prasad </p>
         <div className="flex gap-4 text-2xl py-2">
           <a href="https://www.facebook.com/" target="_blank">
             {" "}

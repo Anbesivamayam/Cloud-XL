@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <Toaster />
+      {/* "homepage": "https://anbesivamayam.github.io/Cloud-XL", */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signUp" element={<SignUp />} />       

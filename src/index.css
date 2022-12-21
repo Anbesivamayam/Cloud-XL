@@ -5,8 +5,7 @@
 @layer base{
     li {
         @apply p-1.5 
-        font-semibold
-        
+        font-semibold       
     }
 }
 
